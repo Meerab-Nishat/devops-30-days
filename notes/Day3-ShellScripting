@@ -1,0 +1,14 @@
+# Day 3 – Shell Scripting
+
+## Concepts Learned
+- Bash scripts
+- Variables
+- Conditions
+- Loops
+
+## Mini Project
+Created a system health checker script to monitor disk, memory, and CPU.
+
+## Why This Matters
+Shell scripting allows automation of repetitive tasks, which is a core DevOps responsibility.
+
