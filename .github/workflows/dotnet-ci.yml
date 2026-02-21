@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   build:
@@ -26,3 +23,6 @@ jobs:
 
       - name: Build project
         run: dotnet build ./projects/docker-dotnet-app --configuration Release --no-restore
+
+      - name: Build Docker image
+        run: docker build -t docker-dotnet-app ./projects/docker-dotnet-app
